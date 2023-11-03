@@ -22,6 +22,6 @@ public class ComicServiceImple implements ComicService {
 
     @Override
     public ComicDto findById(Long comicId) {
-        return comicRepository.findByID(comicId);
+        return comicRepository.findById(comicId);
     }
 }
